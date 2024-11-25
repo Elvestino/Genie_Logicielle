@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bleu_color{
+  color: #1E87DB;
+}
+
+.green_color{
+  color: #01CC87;
+}
+
+.red_color{
+  color: #EE4433;
+}
+
+.gray_color{
+  color: #E8E8E8;
+}
+
+.border_color{
+  border-color: #E8E8E8;
+}
+
+.background_color{
+  background-color: #1E87DB10;
+}
+
+.bleu_background{
+  background-color: #1E87DB;
+}
+
+.green_background{
+  background-color: #01CC87;
+}
+
+.red_background{
+  background-color: #EE4433;
+}
+
+.gray_background{
+  background-color: #E8E8E8;
+}
+
+.bleu_border{
+  border-color: #1E87DB;
+}
+
+.green_border{
+  border-color: #01CC87;
+}
+
+.red_border{
+  border-color: #EE4433;
+}
+
+.gray_border{
+  border-color: #E8E8E8;
+}
+
+<<<<<<< HEAD
+/* scrollbar */
+/* CSS pour personnaliser la barre de défilement */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* Bar fine */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Dégradé de couleurs tendance */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #feb47b, #ff7e5f); /* Effet hover */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Couleur du fond */
+  border-radius: 10px;
+}
+
+
+=======
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+>>>>>>> 028fcd63fc67ba2926b7071efd26d0d760656688

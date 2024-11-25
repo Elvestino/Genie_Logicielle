@@ -1,0 +1,53 @@
+{
+  "name": "clinik_front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@mantine/core": "^7.12.2",
+    "@mantine/dates": "^7.12.2",
+    "@mantine/hooks": "^7.12.2",
+    "apexcharts": "^3.53.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "date-fns": "^3.6.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.5.4",
+    "json-server": "^1.0.0-beta.2",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.3.0",
+    "react-query": "^3.39.3",
+    "react-range": "^1.10.0",
+    "react-select": "^5.8.1",
+    "react-table": "^7.8.0",
+    "tailwind-merge": "^2.5.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-table": "^7.7.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
